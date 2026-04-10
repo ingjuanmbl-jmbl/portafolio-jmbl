@@ -23,7 +23,7 @@ repository               : "ingjuanmbl-jmbl/portafolio-jmbl"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "https://ingjuanmbl-jmbl.github.io/portafolio-jmbl/assets/images/perfil.jpg"
+  avatar           : "assets/images/perfil.jpg"
   name             : "Juan Manuel Betancur Lopez"
   pronouns         : # example: "she/her"  
   bio              : "Data Scientist | Ingeniero Industrial & Especialista en Analítica de Datos"
