@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Ing. Juan Manuel Betancur"
+title: "Cambiar el mundo, un dato a la vez"
 author_profile: true
 redirect_from: 
   - /about/
@@ -8,23 +8,13 @@ redirect_from:
 ---
 # Sobre mí
 
-[cite_start]Soy **Ingeniero Industrial** y **Especialista en Analítica de Datos** con más de 5 años de experiencia diseñando soluciones de **Ciencia de Datos** e **Inteligencia de Negocios**[cite: 1, 2, 4]. [cite_start]Mi enfoque principal es cerrar la brecha entre los datos crudos y la toma de decisiones estratégicas, con un impacto directo en la reducción de costos y la mejora del servicio[cite: 7, 8].
 
-## 📈 Impacto y Trayectoria
-[cite_start]Actualmente me desempeño como **Analista de Datos en Audifarma S.A.**, donde desarrollo modelos predictivos en Python aplicados a volúmenes masivos de datos (4-7 millones de registros)[cite: 10, 11]. [cite_start]Mi trabajo ha permitido automatizar procesos que antes tomaban 144 horas trimestrales, logrando una mejora superior al 10% en los niveles de servicio operativo.
+> Soy Ingeniero Industrial con especialización en Analítica de Datos, enfocado en el desarrollo de soluciones de **Ciencia de Datos y Machine Learning** para la toma de decisiones estratégicas. Cuento con más de 5 años de experiencia aplicando analítica avanzada en sectores como salud y manufactura, abordando problemas reales mediante el uso de datos a gran escala.
 
-[cite_start]También soy un investigador activo en el semillero **SMART DATA**, donde trabajo en la detección de usuarios insatisfechos mediante estadística multivariada y algoritmos supervisados[cite: 5, 29, 30].
+> Mi experiencia abarca el ciclo completo del dato: desde la extracción y transformación hasta el modelado y despliegue de soluciones predictivas y prescriptivas. Trabajo principalmente con Python (Pandas, Scikit-learn, XGBoost), SQL, SAP BusinessObjects y KNIME, desarrollando modelos que optimizan procesos, mejoran niveles de servicio y generan impacto medible en la operación.
 
-## 🛠️ Stack Técnico
-[cite_start]Domino el ciclo de vida completo del dato, desde la extracción hasta el despliegue de modelos[cite: 6]:
+> He diseñado e implementado pipelines analíticos que han permitido automatizar procesos, reducir tiempos operativos y mejorar indicadores clave. Entre los resultados obtenidos se destacan mejoras superiores al 10% en niveles de servicio y la optimización de procesos que han generado ahorros significativos de tiempo en equipos de trabajo.
 
-* [cite_start]**Lenguajes y Librerías:** Python (Pandas, Scikit-learn, XGBoost, NumPy), SQL[cite: 6, 33].
-* [cite_start]**Machine Learning:** Modelos de clasificación, regresión, Random Forest y árboles de decisión[cite: 33].
-* [cite_start]**BI & Visualización:** SAP BusinessObjects, KNIME y técnicas de Storytelling con datos[cite: 33, 42].
-* [cite_start]**Metodologías:** Mejora continua, Six Sigma y gestión de KPIs industriales[cite: 33, 50].
+> Actualmente participo como investigador en el semillero SMART DATA, desarrollando modelos de clasificación enfocados en la predicción de enfermedades crónicas y la detección de insatisfacción en usuarios, fortaleciendo mi enfoque en analítica predictiva aplicada a problemas de alto impacto.
 
-## 🚀 Propósito
-[cite_start]Me apasiona aplicar metodologías ágiles y analítica avanzada para resolver desafíos complejos en sectores como salud y manufactura[cite: 4, 21]. [cite_start]Mi meta es seguir construyendo productos de datos que no solo predigan el futuro, sino que prescriban acciones para optimizar la operación y la experiencia del cliente[cite: 6, 8].
-
----
-*Ubicado en Pereira, Colombia. Comprometido con la innovación basada en datos.* [cite: 2]
+> Mi enfoque profesional está orientado a evolucionar como Científico de Datos, combinando estadística, machine learning y conocimiento del negocio para transformar datos en decisiones que generen valor real.
