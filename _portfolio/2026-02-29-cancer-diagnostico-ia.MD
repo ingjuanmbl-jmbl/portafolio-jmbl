@@ -35,6 +35,10 @@ Las gráficas de entrenamiento muestran lo que en Deep Learning se llama un "Goo
 - Análisis de Datos: Pandas, NumPy
 - Visualización: Matplotlib, Seaborn
 - Persistencia: Joblib (para el escalador de datos)
+  
+### 🔗 Enlaces del Proyecto
+* **Repositorio en GitHub:** [Diagnostico Cancer Redes Neuronales](https://github.com/ingjuanmbl-jmbl/diagnostico-cancer-ia)
 
 ##  ✒️ Conclusión
 > Este proyecto demuestra cómo una red neuronal, cuando se le aplican técnicas adecuadas de regularización (Dropout) y escalado, puede alcanzar niveles de precisión superiores al 99%, sirviendo como una herramienta de apoyo robusta para el diagnóstico oncológico.
+
