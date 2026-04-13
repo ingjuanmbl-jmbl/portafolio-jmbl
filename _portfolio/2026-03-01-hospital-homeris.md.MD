@@ -4,7 +4,7 @@ excerpt: "Análisis Avanzado de Agrupamiento y Reducción de Dimensionalidad par
 collection: portfolio
 header:
   teaser: "/assets/images/perfil.jpg"
----
+
 
 ## 📊 Origen de los Datos y Contexto del Problema
 
@@ -16,13 +16,13 @@ Los datos provienen del **Registro de Casos de Atención del Hospital Mental Uni
 ### El Desafío Real
 La gestión de servicios en salud mental requiere una comprensión profunda de la demanda. Este proyecto utiliza técnicas de **Machine Learning No Supervisado** para segmentar a la población atendida, permitiendo identificar perfiles críticos de pacientes. El objetivo es transformar datos administrativos en información accionable que permita optimizar recursos hospitalarios y diseñar programas de intervención focalizados según el género, la edad y el diagnóstico.
 
----
+
 ## 🌐 Acceso a la Plataforma en Vivo
 Puedes interactuar con los modelos y explorar los clústeres en tiempo real aquí:
 🚀 **[Hospital Homeris Analytics - Demo en la Nube](https://hospital-homeris-analysis-5e3mu8p9ypcsprptu4abtx.streamlit.app/)**
 
 
----
+
 
 ## 🎯 Objetivo del Proyecto
 
@@ -30,7 +30,7 @@ Modelar la estructura de la demanda asistencial mediante **técnicas de agrupaci
 permitiendo la extracción de evidencia estadística que fundamente la toma de decisiones clínicas y la optimización estratégica
 de los servicios hospitalarios
 
----
+
 
 ## 🔬 Arquitectura y Metodología
 
@@ -40,7 +40,6 @@ El proyecto sigue un enfoque modular basado en **Principios de Ingeniería de So
 2.  **Clustering Avanzado:** Aplicación de algoritmos de agrupación (K-Means / Hierarchical) validados mediante métricas de cohesión y separación (**Coeficiente de Silueta**)
 3.  **Visualización Científica:** Dashboard interactivo desarrollado en Streamlit con visualizaciones dinámicas (Plotly) para la interpretación de componentes principales y perfiles de segmento.
 
----
 
 ## 🚀 Funcionalidades
 
@@ -61,7 +60,7 @@ El proyecto sigue un enfoque modular basado en **Principios de Ingeniería de So
   - Diagnóstico predominante
   - Diferencias entre grupos
 
----
+
   
 ## 🧠 Principales Hallazgos y Caracterización
 
@@ -77,12 +76,9 @@ A través de la reducción de dimensionalidad (**PCA**) conservando el 70% de la
 * **Hallazgo:** Es el segmento de mayor volumen y variedad diagnóstica. La presencia mayoritaria de mujeres sugiere que este grupo constituye el núcleo de la demanda recurrente, abarcando un espectro clínico más amplio que va desde el control administrativo hasta el seguimiento crónico.
 * **Impacto:** Representa la base operativa principal del hospital, donde la eficiencia en la asignación de citas y la continuidad del tratamiento son los mayores pilares de gestión.
 
----
 
 ### 🧪 Nota Técnica sobre el Modelo
 Para lograr esta segmentación, se aplicó un **Análisis de Componentes Principales (PCA)**. Se determinó que el **género y la etapa del ciclo vital** son los predictores más robustos de la ruta de atención en HOMERIS. La elección de un modelo de 2 clústeres responde al aseguramiento para que los grupos sean interpretables y accionables para el negocio.
-
----
 
 ## 🛠️ Tecnologías utilizadas
 
@@ -91,9 +87,6 @@ Para lograr esta segmentación, se aplicó un **Análisis de Componentes Princip
 - Pandas
 - Scikit-learn
 - Plotly
-
-
----
 
 ### 🔗 Enlaces del Proyecto
 * **Repositorio en GitHub:** [Health Analytics Platform - Hospital Homeris](https://github.com/ingjuanmbl-jmbl/hospital-homeris-analysis)
