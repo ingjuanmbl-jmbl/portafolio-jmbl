@@ -7,11 +7,9 @@ header:
   teaser: "/assets/images/perfil.jpg"
 ---
 
-# 🩺 Comparación del Desempeño de Modelos de Clasificación para la Predicción de la Diabetes como Enfermedad Crónica en Bucaramanga
-
 > **Investigación académica en revisión editorial** — Corporación Unificada Nacional de Colombia (CUN), 2026.
 
----
+
 
 ## ¿De qué trata este proyecto?
 
@@ -21,7 +19,6 @@ Este proyecto nació con una pregunta concreta: **¿es posible predecir el riesg
 
 Para responderla, diseñé y ejecuté un pipeline completo de ciencia de datos — desde la extracción automatizada de datos hasta la comparación sistemática de modelos de clasificación — con el objetivo de identificar qué algoritmo ofrece el mejor desempeño para la detección temprana de esta enfermedad en un contexto de salud pública local.
 
----
 
 ## El dataset
 
@@ -36,7 +33,7 @@ Los datos provienen del **Portal de Datos Abiertos del Estado Colombiano**, del 
 
 El acceso al dataset se realizó de forma completamente automatizada mediante la **API Socrata (SODA)** con la librería `sodapy`, utilizando paginación dinámica para garantizar la descarga íntegra de los registros sin saturar el servidor.
 
----
+
 
 ## Lo que hice: pipeline completo en dos fases
 
@@ -71,13 +68,13 @@ La clase positiva (pacientes con diabetes) era minoritaria en el dataset. Se int
 
 Cada modelo fue optimizado con **GridSearchCV** (k=5 pliegues), usando **F1-Score** como métrica de referencia. Adicionalmente, se realizó un **análisis de sensibilidad de umbrales** (de 0.10 a 0.70) para identificar el punto de operación clínica óptimo.
 
----
+
 
 ## Resultados
 
 ### Comparación de modelos (umbral estándar = 0.5)
 
-![Resultados-umbral-0.5](images/27-02-2026-diabetes-class/heatmap_umbral_05.png)
+![Resultados-umbral-0.5](/images/27-02-2026-diabetes-class/heatmap_umbral_05.png)
 
 Los modelos de ensamble dominaron en recall y AUC-ROC, mientras que el Árbol de Decisión mostró mayor precisión pero una capacidad de detección muy limitada. **XGBoost fue identificado como el modelo con mayor capacidad discriminativa global.**
 
@@ -90,15 +87,15 @@ Al ajustar el umbral de decisión del modelo XGBoost de 0.5 a **0.4**, se obtuvo
 > **Recall = 0.958** — el modelo identifica correctamente el 95.8% de los individuos en riesgo.
 
 Este resultado posiciona al modelo como una herramienta de tamizaje altamente efectiva para apoyar decisiones clínicas proactivas.
-![Resultados-umbral-0.5](images/27-02-2026-diabetes-class/xgboost_umbrales.png)
+![Resultados-umbral-0.5](/images/27-02-2026-diabetes-class/xgboost_umbrales.png)
 
 ### Variables más influyentes (XGBoost — métrica Gain)
 
-![Resultados-umbral-0.5](images/27-02-2026-diabetes-class/xgboost_fi.png)
+![Resultados-umbral-0.5](/images/27-02-2026-diabetes-class/xgboost_fi.png)
 
 La edad avanzada y la presencia de comorbilidades crónicas concentran el mayor poder predictivo, lo que es coherente con la evidencia epidemiológica disponible para la región.
 
----
+
 
 ## Stack tecnológico
 
@@ -113,7 +110,7 @@ La edad avanzada y la presencia de comorbilidades crónicas concentran el mayor 
 | `xgboost` | Modelo de mejor desempeño |
 | Google Drive | Almacenamiento del proyecto |
 
----
+
 
 ## Conclusiones clave
 
@@ -123,10 +120,10 @@ La edad avanzada y la presencia de comorbilidades crónicas concentran el mayor 
 4. **La edad avanzada y las comorbilidades** (cáncer, asma, EPOC, hipertensión, artritis) son los predictores más determinantes del riesgo de diabetes en la población analizada.
 5. **La viabilidad tecnológica está demostrada**: todo el pipeline fue ejecutado en Google Colab sin infraestructura local, lo que facilita la replicabilidad y democratiza el acceso a herramientas de IA en ciudades intermedias colombianas.
 
----
+
 
 ## Repositorio
 
 🔗 [github.com/ingjuanmbl-jmbl/diabetes-bucaramanga-classification](https://github.com/ingjuanmbl-jmbl/diabetes-bucaramanga-classification)
 
----
+
