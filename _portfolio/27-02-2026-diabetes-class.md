@@ -74,7 +74,7 @@ Cada modelo fue optimizado con **GridSearchCV** (k=5 pliegues), usando **F1-Scor
 
 ### Comparación de modelos (umbral estándar = 0.5)
 
-![Resultados-umbral-0.5](/images/27-02-2026-diabetes-class/heatmap_umbral_05.png)
+![Resultados-umbral-0.5](../images/27-02-2026-diabetes-class/heatmap_umbral_05.png)
 
 Los modelos de ensamble dominaron en recall y AUC-ROC, mientras que el Árbol de Decisión mostró mayor precisión pero una capacidad de detección muy limitada. **XGBoost fue identificado como el modelo con mayor capacidad discriminativa global.**
 
@@ -87,11 +87,11 @@ Al ajustar el umbral de decisión del modelo XGBoost de 0.5 a **0.4**, se obtuvo
 > **Recall = 0.958** — el modelo identifica correctamente el 95.8% de los individuos en riesgo.
 
 Este resultado posiciona al modelo como una herramienta de tamizaje altamente efectiva para apoyar decisiones clínicas proactivas.
-![Resultados-umbral-0.5](/images/27-02-2026-diabetes-class/xgboost_umbrales.png)
+![Resultados-umbral-0.5](../images/27-02-2026-diabetes-class/xgboost_umbrales.png)
 
 ### Variables más influyentes (XGBoost — métrica Gain)
 
-![Resultados-umbral-0.5](/images/27-02-2026-diabetes-class/xgboost_fi.png)
+![Resultados-umbral-0.5](../images/27-02-2026-diabetes-class/xgboost_fi.png)
 
 La edad avanzada y la presencia de comorbilidades crónicas concentran el mayor poder predictivo, lo que es coherente con la evidencia epidemiológica disponible para la región.
 
