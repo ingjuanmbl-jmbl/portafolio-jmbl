@@ -1,8 +1,8 @@
 ---
-title: "Diagnóstico de Cáncer mediante Redes Neuronales Profundas (DNN)"
-excerpt: "Sistema de clasificación binaria basado en Deep Learning para la detección de tumores benignos y malignos."
+title: "Comparación del Desempeño de Modelos de Clasificación para la Predicción de la Diabetes como Enfermedad Crónica en Bucaramanga"
+excerpt: "Desarrollé un sistema de clasificación capaz de identificar pacientes en riesgo de diabetes con un 95.8% de sensibilidad, utilizando datos abiertos gubernamentales y técnicas avanzadas de balanceo de datos (SMOTE) para optimizar la detección temprana"
 collection: portfolio
-date: 2025-02-29
+date: 2025-02-27
 header:
   teaser: "/assets/images/perfil.jpg"
 ---
