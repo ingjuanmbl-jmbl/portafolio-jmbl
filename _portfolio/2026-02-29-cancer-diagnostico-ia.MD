@@ -2,7 +2,7 @@
 title: "Diagnóstico de Cáncer mediante Redes Neuronales Profundas (DNN)"
 excerpt: "Desarrollé un Sistema de clasificación binaria basado en Deep Learning para la detección de tumores benignos y malignos."
 collection: portfolio
-date: 2025-02-29
+date: 2026-02-29
 header:
   teaser: "/assets/images/perfil.jpg"
 ---
