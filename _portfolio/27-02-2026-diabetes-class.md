@@ -1,11 +1,13 @@
-# 🩺 Predicción de Diabetes en Bucaramanga con Machine Learning
+---
+title: "Diagnóstico de Cáncer mediante Redes Neuronales Profundas (DNN)"
+excerpt: "Sistema de clasificación binaria basado en Deep Learning para la detección de tumores benignos y malignos."
+collection: portfolio
+date: 2025-02-29
+header:
+  teaser: "/assets/images/perfil.jpg"
+---
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-%23337AB7.svg?style=for-the-badge&logo=xgboost&logoColor=white)
-![Estado](https://img.shields.io/badge/Estado-En%20Revisi%C3%B3n%20Editorial-orange?style=for-the-badge)
+# 🩺 Comparación del Desempeño de Modelos de Clasificación para la Predicción de la Diabetes como Enfermedad Crónica en Bucaramanga
 
 > **Investigación académica en revisión editorial** — Corporación Unificada Nacional de Colombia (CUN), 2026.
 
@@ -75,13 +77,7 @@ Cada modelo fue optimizado con **GridSearchCV** (k=5 pliegues), usando **F1-Scor
 
 ### Comparación de modelos (umbral estándar = 0.5)
 
-| Modelo | Recall | F1-Score | ROC-AUC |
-|--------|--------|----------|---------|
-| **XGBoost** | 0.919 | ~0.530 | **0.676** |
-| Gradient Boosting | 0.914 | ~0.529 | 0.671 |
-| Random Forest | 0.930 | ~0.530 | — |
-| Árbol de Decisión | 0.354 | — | 0.669 |
-| Regresión Logística | 0.666 | 0.483 | — |
+![Resultados-umbral-0.5](images/27-02-2026-diabetes-class/heatmap_umbral_05.png)
 
 Los modelos de ensamble dominaron en recall y AUC-ROC, mientras que el Árbol de Decisión mostró mayor precisión pero una capacidad de detección muy limitada. **XGBoost fue identificado como el modelo con mayor capacidad discriminativa global.**
 
@@ -94,18 +90,11 @@ Al ajustar el umbral de decisión del modelo XGBoost de 0.5 a **0.4**, se obtuvo
 > **Recall = 0.958** — el modelo identifica correctamente el 95.8% de los individuos en riesgo.
 
 Este resultado posiciona al modelo como una herramienta de tamizaje altamente efectiva para apoyar decisiones clínicas proactivas.
+![Resultados-umbral-0.5](images/27-02-2026-diabetes-class/xgboost_umbrales.png)
 
 ### Variables más influyentes (XGBoost — métrica Gain)
 
-| Variable | Importancia |
-|----------|-------------|
-| Persona mayor (ciclo de vida) | 18.47% |
-| Cáncer | 9.69% |
-| Adultez (ciclo de vida) | 8.02% |
-| Asma | 8.02% |
-| EPOC | 6.95% |
-| Hipertensión | 6.13% |
-| Artritis | 5.89% |
+![Resultados-umbral-0.5](images/27-02-2026-diabetes-class/xgboost_fi.png)
 
 La edad avanzada y la presencia de comorbilidades crónicas concentran el mayor poder predictivo, lo que es coherente con la evidencia epidemiológica disponible para la región.
 
@@ -141,5 +130,3 @@ La edad avanzada y la presencia de comorbilidades crónicas concentran el mayor 
 🔗 [github.com/ingjuanmbl-jmbl/diabetes-bucaramanga-classification](https://github.com/ingjuanmbl-jmbl/diabetes-bucaramanga-classification)
 
 ---
-
-*Investigación realizada en el marco de la Especialización en Analítica de Datos — Corporación Unificada Nacional de Colombia (CUN). Actualmente en proceso de revisión editorial.*
