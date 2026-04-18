@@ -13,14 +13,13 @@ Este proyecto desarrolla un modelo de analítica predictiva orientado a identifi
 El problema principal radica en la baja tasa de respuesta de encuestas (<1.5%) y el retraso en el procesamiento de información, lo que limita la capacidad de reacción operativa.
 
 La solución propuesta utiliza modelos de clasificación supervisados para anticipar la insatisfacción sin depender directamente de la retroalimentación del usuario.
-> Este proyecto se llevo a cabo en el marco de la tesis para obtener el titulo de especialista en analitica de datos
+> Este proyecto se llevó a cabo en el marco de la tesis para obtener el titulo de especialista en analitica de datos
 
----
 
 ## 🎯 Objetivo
 Desarrollar e implementar un modelo de clasificación que permita predecir usuarios insatisfechos, facilitando la toma de decisiones proactiva en experiencia del cliente.
 
----
+
 
 ## ⚙️ Tecnologías y Herramientas
 - Python (Pandas, NumPy, Scikit-learn)
@@ -29,7 +28,6 @@ Desarrollar e implementar un modelo de clasificación que permita predecir usuar
 - Jupyter Notebook
 - Machine Learning (Supervised Learning)
 
----
 
 ## 🧩 Metodología
 
@@ -63,17 +61,16 @@ Métricas utilizadas:
 - AUC-ROC
 - Matriz de confusión
 
----
+
 
 ## 📈 Resultados
 
-- 🔹 Mejor modelo: **XGBoost optimizado**
-- 🔹 Recall (usuarios insatisfechos): **0.81**
-- 🔹 F1-Score: **0.73**
+-  Mejor modelo: **XGBoost optimizado**
+-  Recall (usuarios insatisfechos): **0.81**
+-  F1-Score: **0.73**
 
 El modelo logró identificar de forma efectiva usuarios con alta probabilidad de insatisfacción, priorizando la detección de casos críticos.
 
----
 
 ## 💡 Impacto del Proyecto
 
@@ -83,7 +80,7 @@ El modelo logró identificar de forma efectiva usuarios con alta probabilidad de
 - Soporte a decisiones basadas en datos
 - Escalabilidad a otras EPS o líneas de servicio
 
----
+
 
 ## ⚠️ Limitaciones
 
@@ -92,7 +89,7 @@ El modelo logró identificar de forma efectiva usuarios con alta probabilidad de
 - Horizonte de predicción limitado a corto plazo (1 mes)
 - Modelo no implementado aún en producción
 
----
+
 
 ## 🚀 Próximos Pasos
 
@@ -101,7 +98,7 @@ El modelo logró identificar de forma efectiva usuarios con alta probabilidad de
 - Inclusión de variables externas (supply chain, políticas públicas)
 - Dashboard de visualización para toma de decisiones
 
----
+
 
 ## 📌 Conclusión
 
@@ -109,9 +106,9 @@ Este proyecto demuestra cómo la analítica avanzada puede transformar la gesti�
 
 El uso de modelos de machine learning permite identificar patrones no evidentes y generar valor estratégico a partir de los datos operativos.
 
----
+
 
 ## 👤 Autor
 **Juan Manuel Betancur López**  
-Especialización en Analítica de Datos  
+Especialista en Analítica de Datos  
 Pereira, Colombia
