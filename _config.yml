@@ -144,7 +144,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 :  # Social media default site image
-og_description           :  "Portafolio profesional de Ing. Juan Manuel Betancur"
+og_description           :  "Portafolio profesional"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

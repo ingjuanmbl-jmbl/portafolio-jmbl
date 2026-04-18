@@ -2,7 +2,7 @@
 title: "Health Analytics Platform - Hospital Homeris"
 excerpt: "Construí un Análisis Avanzado de Agrupamiento y Reducción de Dimensionalidad para la Caracterización del Paciente en Salud Mental del hospital Homeris"
 collection: portfolio
-date: 2025-03-01
+date: 2026-03-01
 header:
   teaser: "/assets/images/perfil.jpg"
 ---
