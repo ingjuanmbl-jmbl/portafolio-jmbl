@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "es-CO"
-site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Ing. Juan Manuel Betancur López"
 title_separator          : "|"
 name                     : &name "Juan Manuel Betancur Lopez"
@@ -27,7 +27,7 @@ author:
   avatar           : "perfil.jpg"
   name             : "Juan Manuel Betancur Lopez"
   pronouns         : # example: "she/her"  
-  bio              : "Data Scientist | Ingeniero Industrial & Especialista en Analítica de Datos"
+  bio              : "Científico de datos | Analista de datos Senior | Ingeniero Industrial & Especialista en Analítica de Datos"
   location         : "Pereira, Colombia"
   employer         : "Consultor e Investigador de ciencia de datos y analitica Avanzada"
   uri              : # URL
